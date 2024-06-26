@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "this is a zibranium product",
   "main": "index.js",
+  "bin": {
+    "createfile": "../bin/create.js"
+  },
   "type": "module",
   "scripts": {
     "start": "node index.js",
