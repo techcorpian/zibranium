@@ -9,3 +9,11 @@
 2. Pre Built CSS -
     Tailwind CSS
 
+# Backend & Frontend
+
+1. This Update Creates the following files
+* controllers > ${name}Controller.js
+* models > ${name}Model.js
+* routes > ${name}Routes.js
+
+2. It also adds required content template to start a project for all the respective files
