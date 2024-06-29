@@ -4,8 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-  background-color: rgb(30, 30, 30);
+body{
+  background-color: lightcyan;
+}
+
+.dark-layout-box{
+  padding: 12px 12px;
+  border-radius: 15px;
+  /* box-shadow: rgba(201, 201, 201, 0.2) 0px 2px 8px 0px; */
+
 }
 
 
