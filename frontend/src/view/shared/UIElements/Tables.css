@@ -1,0 +1,74 @@
+.filter_button {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-size: 18px;
+    transform: translate(0, -50%);
+    padding: 11px 4px;
+    background-color: rgb(186 230 253);
+    border-left: 1px solid rgb(125 211 252);
+    color: rgb(14 165 233);
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.filter_button:hover{
+    background-color: rgb(125 211 252);
+    border: 1px solid rgb(125 211 252);
+    color: rgb(12 74 110);
+    cursor: pointer;
+}
+
+th {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    position: relative;
+  }
+
+th:hover .filter_button {
+    display: inline-block;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    z-index: 1; /* Ensure the dropdown is above the table */
+  }
+
+  .pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 6px 0;
+  }
+  
+  .pagination button {
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 4px 8px;
+    border: 1px solid rgb(125 211 252);
+    border-radius: 5px;
+    color: rgb(3 105 161);
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .pagination .active {
+    background-color: rgb(3 105 161);
+    border: 1px solid rgb(3 105 161);
+    color: white;
+  }
+  
+  .pagination button:hover {
+    background-color: rgb(3 105 161);
+    border: 1px solid rgb(3 105 161);
+    color: white;
+  }
+
+  

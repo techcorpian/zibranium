@@ -1,0 +1,101 @@
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.nav-links {
+  flex-direction: row;
+}
+
+.nav-links li {
+  margin: 0.4rem;
+}
+
+.nav-links a {
+  border: 1px solid transparent;
+  text-decoration: none;
+  padding: 0.4rem 0.5rem;
+  font-size: 14px;
+  
+}
+
+.nav-links .main-navlink:hover,
+.nav-links .main-navlink:active,
+.nav-links .main-navlink.active {
+  background: rgb(3 105 161);
+  border-color: rgb(3 105 161);
+  color: rgb(240 249 255);
+  border-radius: 5px;
+}
+
+.nav-links button {
+  cursor: pointer;
+  border: 1px solid #292929;
+  color: lightgray;
+  background: transparent;
+  padding: 0.5rem;
+  font: inherit;
+}
+
+.nav-links button:focus {
+  outline: none;
+}
+
+.nav-links button:hover,
+.nav-links button:active {
+  background: #292929;
+  color: lightgray;
+}
+
+/*--------- Sub Dropdown ----------*/
+.menu-dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 250px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.menu-dropdown-content Link {
+  padding: 12px 16px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.menu-dropdown-container:hover .menu-dropdown-content {
+  display: block;
+}
+
+.nav-links .sub-navlink{
+  height: 40px;
+}
+
+.nav-links .sub-navlink:hover,
+.nav-links .sub-navlink:active,
+.nav-links .sub-navlink.active {
+  background: rgb(224 242 254);
+  border-color: rgb(224 242 254);
+  color: rgb(3 105 161);
+}
+
+.plus-icon {
+  display: none; /* Hide the FiPlus icon by default */
+}
+
+.sub-navlink:hover .plus-icon {
+  display: block; /* Make FiPlus visible when parent NavLink is hovered */
+}
+

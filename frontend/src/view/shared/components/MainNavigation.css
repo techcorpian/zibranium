@@ -1,0 +1,41 @@
+.main-navigation__menu-btn {
+  padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+  background: transparent;
+  border: 1px solid lightgray;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.main-navigation__menu-btn .icons{
+  font-size: 22px;
+  color: rgb(240 249 255);
+}
+
+.main-navigation__title {
+  color: rgb(255, 255, 255);
+}
+
+.main-navigation__title a {
+  text-decoration: none;
+  color: rgb(240 249 255);
+}
+
+.main-navigation__drawer-nav {
+  height: 100%;
+}
+
+.main-navigation__header-nav .main-navlink {
+  display: block;
+  color: rgb(240 249 255);
+  
+}
+
+.main-navigation__header-nav .sub-navlink {
+
+  color: rgb(3 105 161);
+  
+}
+
+.searchbox{
+  height: 2rem;
+}
